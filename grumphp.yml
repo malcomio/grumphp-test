@@ -21,6 +21,7 @@ grumphp:
         - md
 
     phpmd:
+      ruleset: [./phpmd.xml]
       whitelist_patterns: [ ]
       exclude:
         - 'docroot/modules/legacy'
